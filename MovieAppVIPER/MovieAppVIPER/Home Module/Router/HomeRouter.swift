@@ -10,14 +10,14 @@ import Foundation
 final class HomeRouter: PresenterToRouterHomeProtocol {
     static func executeModule(ref: HomeViewController) {
         let presenter = HomePresenter()
-        
         ref.homePresenterObject = presenter
-        
-        //Presenter
         ref.homePresenterObject?.homeInteractorObject = HomeInteractor()
-        ref.homePresenterObject?.homeViewObject = ref 
-        
-        //Interactor
+        ref.homePresenterObject?.homeViewObject = ref
         ref.homePresenterObject?.homeInteractorObject?.homePresenterObject = presenter
+        
+        let detailPresenter = DetailPresenter()
+        ref.detailObject = detailPresenter
+        detailPresenter.detailInteractor = DetailInteractor()
+        detailPresenter.detailViewObject = ref
     }
 }

@@ -18,7 +18,7 @@ class NetworkManager {
         
         if let url = URL(string: "\(baseURL)\(endpoint)?api_key=\(apiKey)") {
             URLSession.shared.dataTask(with: url) { data, response, error in
-                print("url: \(url)")
+                
                 if let error = error {
                     completion(.failure(error))
                     return

@@ -76,7 +76,7 @@ class HomeTableViewCell: UITableViewCell {
     
     private func applyConstraints() {
         NSLayoutConstraint.activate([
-            movieImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            movieImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 8),
             movieImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 8),
             movieImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8),
             movieImageView.widthAnchor.constraint(equalToConstant: 120),

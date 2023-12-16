@@ -5,7 +5,7 @@
 //  Created by Ceren Güneş on 15.12.2023.
 //
 
-import Foundation
+import UIKit
 
 protocol ViewToPresenterHomeProtocol {
     var homeInteractorObject: PresenterToInteractorHomeProtocol? { get set }

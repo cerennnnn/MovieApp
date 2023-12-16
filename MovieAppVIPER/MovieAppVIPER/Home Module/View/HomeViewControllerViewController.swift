@@ -8,9 +8,15 @@
 import UIKit
 import Kingfisher
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, PresenterToViewDetailProtocol {
+    func sendDetailMovieToView(movie: NowPlaying) {
+        
+    }
+    
     var homePresenterObject: ViewToPresenterHomeProtocol?
     var nowPlayingMovies: [NowPlaying] = []
+    
+    var detailObject: DetailPresenter?
     
     private let moviesTableView: UITableView = {
         let table = UITableView()
@@ -86,13 +92,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        guard let selectedMovieID = nowPlayingMovies[indexPath.row].id else { return }
+        detailObject?.getDetailMovie(with: selectedMovieID)
+        
+        navigationController?.pushViewController(DetailViewController(movie: nowPlayingMovies[indexPath.row]), animated: true)
     }
 }
 
 extension HomeViewController: PresenterToViewHomeProtocol {
     func sendDataToView(movies: [NowPlaying]) {
         DispatchQueue.main.async {
-            print(movies)
             self.nowPlayingMovies = movies
             self.moviesTableView.reloadData()
         }
