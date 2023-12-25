@@ -18,13 +18,10 @@
 		33DE80CB2B2B9C07006E1995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80CA2B2B9C07006E1995 /* AppDelegate.swift */; };
 		33DE80CD2B2B9C07006E1995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80CC2B2B9C07006E1995 /* SceneDelegate.swift */; };
 		33DE80CF2B2B9C07006E1995 /* HomeViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80CE2B2B9C07006E1995 /* HomeViewControllerViewController.swift */; };
-		33DE80D52B2B9C07006E1995 /* MovieAppVIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80D32B2B9C07006E1995 /* MovieAppVIPER.xcdatamodeld */; };
 		33DE80D72B2B9C0A006E1995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DE80D62B2B9C0A006E1995 /* Assets.xcassets */; };
 		33DE80DA2B2B9C0A006E1995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DE80D82B2B9C0A006E1995 /* LaunchScreen.storyboard */; };
 		33DE80EE2B2B9E5D006E1995 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80ED2B2B9E5D006E1995 /* NetworkManager.swift */; };
 		33DE80F22B2B9EEE006E1995 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80F12B2B9EEE006E1995 /* DetailViewController.swift */; };
-		33DE80F42B2B9F5F006E1995 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80F32B2B9F5F006E1995 /* TabBarController.swift */; };
-		33DE80F72B2BA655006E1995 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE80F62B2BA655006E1995 /* View.swift */; };
 		33DE81042B2BABDF006E1995 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE81032B2BABDF006E1995 /* HomeInteractor.swift */; };
 		33DE81062B2BABE8006E1995 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE81052B2BABE8006E1995 /* HomePresenter.swift */; };
 		33DE81082B2BABF1006E1995 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DE81072B2BABF1006E1995 /* HomeRouter.swift */; };
@@ -43,14 +40,11 @@
 		33DE80CA2B2B9C07006E1995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DE80CC2B2B9C07006E1995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		33DE80CE2B2B9C07006E1995 /* HomeViewControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerViewController.swift; sourceTree = "<group>"; };
-		33DE80D42B2B9C07006E1995 /* MovieAppVIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieAppVIPER.xcdatamodel; sourceTree = "<group>"; };
 		33DE80D62B2B9C0A006E1995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33DE80D92B2B9C0A006E1995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33DE80DB2B2B9C0A006E1995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33DE80ED2B2B9E5D006E1995 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		33DE80F12B2B9EEE006E1995 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		33DE80F32B2B9F5F006E1995 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		33DE80F62B2BA655006E1995 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		33DE81032B2BABDF006E1995 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		33DE81052B2BABE8006E1995 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		33DE81072B2BABF1006E1995 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
@@ -88,11 +82,9 @@
 		33DE80C92B2B9C07006E1995 /* MovieAppVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				33DE80EB2B2B9CCE006E1995 /* Data Model */,
 				33DE80EC2B2B9CD8006E1995 /* API */,
 				33DE80E42B2B9C7F006E1995 /* Home Module */,
 				33DE80EF2B2B9EAA006E1995 /* Detail Module */,
-				33DE80F52B2BA64A006E1995 /* Search Module */,
 				33DE80E32B2B9C5D006E1995 /* Resources */,
 				33DE80E12B2B9C3B006E1995 /* App */,
 			);
@@ -104,7 +96,6 @@
 			children = (
 				33DE80CA2B2B9C07006E1995 /* AppDelegate.swift */,
 				33DE80CC2B2B9C07006E1995 /* SceneDelegate.swift */,
-				33DE80F32B2B9F5F006E1995 /* TabBarController.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -181,14 +172,6 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		33DE80EB2B2B9CCE006E1995 /* Data Model */ = {
-			isa = PBXGroup;
-			children = (
-				33DE80D32B2B9C07006E1995 /* MovieAppVIPER.xcdatamodeld */,
-			);
-			path = "Data Model";
-			sourceTree = "<group>";
-		};
 		33DE80EC2B2B9CD8006E1995 /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,62 +199,6 @@
 				33DE80F12B2B9EEE006E1995 /* DetailViewController.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		33DE80F52B2BA64A006E1995 /* Search Module */ = {
-			isa = PBXGroup;
-			children = (
-				33DE80F92B2BA823006E1995 /* View */,
-				33DE80F82B2BA7FF006E1995 /* Interactor */,
-				33DE80FA2B2BA831006E1995 /* Presenter */,
-				33DE80FC2B2BA837006E1995 /* Entity */,
-				33DE80FB2B2BA835006E1995 /* Router */,
-				33DE80FD2B2BA86B006E1995 /* Protocols */,
-			);
-			path = "Search Module";
-			sourceTree = "<group>";
-		};
-		33DE80F82B2BA7FF006E1995 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		33DE80F92B2BA823006E1995 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				33DE80F62B2BA655006E1995 /* View.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		33DE80FA2B2BA831006E1995 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		33DE80FB2B2BA835006E1995 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		33DE80FC2B2BA837006E1995 /* Entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entity;
-			sourceTree = "<group>";
-		};
-		33DE80FD2B2BA86B006E1995 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
 			sourceTree = "<group>";
 		};
 		33DE80FE2B2BA8B8006E1995 /* Interactor */ = {
@@ -391,16 +318,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				339685122B2CB66100D194EE /* HomeProtocols.swift in Sources */,
-				33DE80F72B2BA655006E1995 /* View.swift in Sources */,
 				3396850F2B2CB57B00D194EE /* NetworkError.swift in Sources */,
 				33DE80CF2B2B9C07006E1995 /* HomeViewControllerViewController.swift in Sources */,
-				33DE80D52B2B9C07006E1995 /* MovieAppVIPER.xcdatamodeld in Sources */,
 				33DE81062B2BABE8006E1995 /* HomePresenter.swift in Sources */,
 				33DE80EE2B2B9E5D006E1995 /* NetworkManager.swift in Sources */,
 				33DE80F22B2B9EEE006E1995 /* DetailViewController.swift in Sources */,
 				33DE810B2B2BAC2E006E1995 /* HomeTableViewCell.swift in Sources */,
 				3396851A2B2CF81100D194EE /* DetailProtocols.swift in Sources */,
-				33DE80F42B2B9F5F006E1995 /* TabBarController.swift in Sources */,
 				33DE81042B2BABDF006E1995 /* HomeInteractor.swift in Sources */,
 				33DE80CB2B2B9C07006E1995 /* AppDelegate.swift in Sources */,
 				3396850A2B2CB1F500D194EE /* Movies.swift in Sources */,
@@ -638,19 +562,6 @@
 			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
-
-/* Begin XCVersionGroup section */
-		33DE80D32B2B9C07006E1995 /* MovieAppVIPER.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				33DE80D42B2B9C07006E1995 /* MovieAppVIPER.xcdatamodel */,
-			);
-			currentVersion = 33DE80D42B2B9C07006E1995 /* MovieAppVIPER.xcdatamodel */;
-			path = MovieAppVIPER.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 33DE80BF2B2B9C07006E1995 /* Project object */;
 }

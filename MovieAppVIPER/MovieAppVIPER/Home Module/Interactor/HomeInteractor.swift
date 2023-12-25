@@ -11,7 +11,7 @@ final class HomeInteractor: PresenterToInteractorHomeProtocol {
     var homePresenterObject: InteractorToPresenterHomeProtocol?
     
     func getAllNowPlayingMovies() {
-        NetworkManager.shared.fetchData(forEndpoint: "now_playing", responseType: NowPlayingMovies.self) { result in
+        NetworkManager.shared.fetchData(forEndpoint: "now_playing", responseType: NowPlayingMovies.self, query: nil) { result in
             switch result {
             case .success(let success):
                 if let nowPlayingArr = success.results {

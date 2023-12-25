@@ -83,7 +83,7 @@ class HomeTableViewCell: UITableViewCell {
             
             movieTitleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 16),
             movieTitleLabel.leadingAnchor.constraint(equalTo: movieImageView.trailingAnchor, constant: 8),
-            movieTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: 16),
+            movieTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -32),
             
             starStackView.leadingAnchor.constraint(equalTo: movieTitleLabel.leadingAnchor),
             starStackView.topAnchor.constraint(equalTo: movieTitleLabel.bottomAnchor, constant: 8),
