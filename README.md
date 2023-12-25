@@ -1,5 +1,5 @@
 # MovieApp
-Movie app developed by VIPER design pattern and 3rd party libraries, all programatically. 
+Movie app developed by VIPER design pattern and 3rd party libraries. 
 
 Technologies:
 - UITableView
@@ -14,5 +14,6 @@ Technologies:
 - UIKit
 - Delegation pattern
 
-<img width="720" alt="Screenshot 2023-12-25 at 18 00 15" src="https://github.com/cerennnnn/MovieApp/assets/97634053/e4b7c324-1029-484b-a35a-01e5dbd1efa3">
+<img width="988" alt="Screenshot 2023-12-25 at 18 01 24" src="https://github.com/cerennnnn/MovieApp/assets/97634053/94fb1ea3-a6e8-459f-9504-d8e603d58793">
+
 
