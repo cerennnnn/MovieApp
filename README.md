@@ -7,7 +7,6 @@ Technologies:
 - UIStackView
 - No storyboards - programmatic UI
 - Kingfisher
-- UIStackView
 - TMDB API
 - URL Session
 - VIPER design pattern
